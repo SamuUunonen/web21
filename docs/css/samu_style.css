@@ -78,7 +78,7 @@ p {
 }
 
 hr {
-    color: #89e705;
+    color: #89e705!important;
     padding: 3px;
     margin-bottom: 5%;
     margin-top: 5%;
