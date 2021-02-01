@@ -1,4 +1,6 @@
 
+
+
 body {
     background-image: url("../images/bg-image.jpg");
     width: 95%;
@@ -15,39 +17,35 @@ body {
 
 .container {
     justify-content: center;
+    
 }
 
 .navbar {
-    background-color: #5E5C5C;
+    background-color: #5E5C5C !important;
     opacity: 0.9;
-
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+    align-items: center;
 }
 
 .nav-link {
     font-size: 2rem;
-    color: #89e705;
+    color: #89e705 !important;
     opacity: 1 !important;
-    padding-right: 50px;
+    margin-right: 10%;
+    justify-content: center;
 }
 
 .nav-link:hover {
-    color: #89e705;
+    color: #89e705 !important;
 }
 
 .nav-link:active {
-    color: #61892F;
+    color: #83b644 !important;
 }
 
 .navbar-toggler {
     background-color: #89e705;
     color: #222629;
-    text-align: center;
-    width: 80px;
-}
-
-.navbar-toggler-icon {
-    text-align: center;
 }
 
 
@@ -57,7 +55,7 @@ body {
 
 .content {
     background-color: #5E5C5C;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 5%;
     margin-bottom: 5%;
 }
@@ -67,13 +65,46 @@ body {
 }
 
 article {
-    color: #89e705;
+    color: #89e705 !important;
 }
 
 p {
     font-size: 1.2rem;
     opacity: 1 !important;
 }
+
+hr {
+    color: #89e705;
+    padding: 3px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:hover, .btn-primary:checked, .btn-primary:focus, .btn-primary:visited, .btn-primary::after {
+    font-size: 1.5rem;
+    background-color: #89e705 !important;
+    color: #222629;
+    text-align: center;
+    border: 2px solid #222629;
+    text-decoration: none;
+    box-shadow: none !important;
+    margin-bottom: 1%;
+}
+
+
+.card-body, .card-body:hover:after {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    font-size: 1.2rem;
+    opacity: 1 !important;
+}
+
+
+.card-body .btn-primary {
+    max-width: 150px;
+}
+
+
 
 
 /*
@@ -88,5 +119,6 @@ footer {
 
 address {
     font-size: 1.5rem;
-    color: #86c232;
+    opacity: 1 !important;
+    color: #89e705 !important;
 }
