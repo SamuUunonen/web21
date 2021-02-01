@@ -2,17 +2,18 @@
 
 
 body {
-    background-color: grey;
-}
-
-.container-fluid {
     background-image: url("../images/bg-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 95%;
     justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-fluid {
     max-width: 1350px;
-    margin: auto;
+
 }
 
 /* 
