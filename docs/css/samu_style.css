@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url("../images/bg-image.jpg");
+    background: #5E5C5C url("../images/bg-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 95%;
@@ -85,14 +85,14 @@ hr {
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:hover, .btn-primary:checked, .btn-primary:focus, .btn-primary:visited, .btn-primary::after {
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
     background-color: #89e705 !important;
-    color: #222629;
-    text-align: center;
-    border: 2px solid #222629;
-    text-decoration: none;
+    color: #222629!important;
+    text-align: center!important;
+    border: 2px solid #222629!important;
+    text-decoration: none!important;
     box-shadow: none !important;
-    margin-bottom: 1%;
+    margin-bottom: 1%!important;
 }
 
 
@@ -129,4 +129,8 @@ address {
     font-size: 1.5rem;
     opacity: 1 !important;
     color: #89e705 !important;
+}
+
+body {
+    display:block !important;
 }
