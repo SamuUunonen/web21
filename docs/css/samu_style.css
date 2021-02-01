@@ -2,8 +2,9 @@
 
 
 body {
-    background-color: #5E5C5C;
     background-image: url("../images/bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 95%;
     justify-content: center;
 }
