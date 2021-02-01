@@ -76,8 +76,8 @@ p {
 hr {
     color: #89e705;
     padding: 3px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:hover, .btn-primary:checked, .btn-primary:focus, .btn-primary:visited, .btn-primary::after {
