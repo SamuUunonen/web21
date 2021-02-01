@@ -13,49 +13,43 @@ body {
     Navigation bar 
 */
 
-.nav {
-    justify-content: center;    
+.container {
+    justify-content: center;
 }
 
-.nav-item {
-    color: #89e705;
+.navbar {
     background-color: #5E5C5C;
-    opacity: 0.8;
-    padding-top: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    opacity: 0.9;
 
-.nav-item :active{
-    color: #86c232;
-    background-color: #ca2727;
-}
-
-.nav-item :hover{
-    background-color: #ffffff;
-    color: #89e705;
+    margin-bottom: 1%;
 }
 
 .nav-link {
     font-size: 2rem;
     color: #89e705;
     opacity: 1 !important;
+    padding-right: 50px;
+}
+
+.nav-link:hover {
+    color: #89e705;
 }
 
 .nav-link:active {
-    background-color: #222629;
-    color: #89e705;
+    color: #61892F;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #89e705;
-    background-color: #ffffff;
-    border-color: transparent;
+.navbar-toggler {
+    background-color: #89e705;
+    color: #222629;
+    text-align: center;
+    width: 80px;
 }
 
-.nav-tabs :hover {
-    background-color: #474b4f;
+.navbar-toggler-icon {
+    text-align: center;
 }
+
 
 /* 
     Content 
